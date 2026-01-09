@@ -1,30 +1,51 @@
 # Seer
 
-### **Infrastructure for agents that actually *do* things.**
+### **Workflow builder with fine-grained control for automated workflows.**
 
-If you’re building agents that interface with the messy real world (GitHub, Asana, Gmail), "vibe coding" a system prompt isn't enough. Seer provides the primitives to move from flaky demos to deterministic, self-healing agents.
+Build complex automation workflows with visual editing, AI-assisted development, and seamless integrations (Google Workspace, GitHub, and more).
 
-## 🛠 The Stack
+## 🚀 Quick Start
 
-### 1. Dynamic Tool Discovery (`tool_hub`)
-Hardcoding 50 tools into a system prompt leads to hallucinations and context-window bloat.
-* **The Solution:** We implement **Dynamic Tool Selection** at runtime. Your agent only "sees" and "loads" tools relevant to the current execution state, keeping the context lean and performance high.
+```bash
+git clone <repo> && cd seer
+docker compose up
+```
 
-### 2. Multi-Agent Delegation (`supervisor`)
-Context-window pollution is the #1 killer of agent reliability.
-* **The Problem:** One agent trying to do everything eventually loses the thread.
-* **The Solution:** Our `supervisor` repo implements a **Supervisor-Worker** pattern. The supervisor manages high-level state and spawns ephemeral sub-agents for specific sub-tasks. This keeps the context for each task surgically clean.
+Access the workflow editor at http://localhost:5173/workflows?backend=http://localhost:8000
 
-### 3. Setup-Free Testing (`eval_agent`)
-Generating test cases is boring; provisioning environments to run them is worse.
-* **The Solution:** Our **Eval Agent** handles the "Setup Fatigue." It interviews your code to generate a spec, then **automatically provisions sandboxed integrations** (GitHub repos, Jira boards, etc.) to run the tests. You provide the goal; Seer provides the environment.
+## ✨ Key Features
+
+**🛠️ Visual Workflow Builder**
+- Drag-and-drop interface for creating automation workflows
+- Node-based editor with custom blocks and integrations
+- Real-time workflow validation and execution
+
+**🤖 AI-Assisted Development**
+- Chat interface for workflow design and debugging
+- AI suggestions for workflow improvements
+- Intelligent error handling and recovery
+
+**🔗 Rich Integrations**
+- Google Workspace (Gmail, Drive, Sheets)
+- GitHub (Repository management, issues, PRs)
+- Web Tools (Search, content fetching, APIs)
+- Databases (PostgreSQL with approval-based write controls)
+
+**⚡ Advanced Execution Engine**
+- Streaming execution with real-time updates
+- Interrupt handling for human-in-the-loop workflows
+- Persistent state management
+
+**🔒 Enterprise-Ready**
+- Self-hosted or cloud deployment (Railway)
+- OAuth-based authentication
+- Role-based access control
+- Audit trails and execution history
 
 ---
 
-## 🏗 Repositories
-* **[`seer`](https://github.com/seer-engg/seer):** The core ARE (Autonomous Reliability Engineering) engine.
-* **[`supervisor`](https://github.com/seer-engg/supervisor):** Logic for spawning sub-agents and maintaining clean context boundaries.
-* **[`tool_hub`](https://github.com/seer-engg/tool_hub):** Runtime discovery and dynamic tool routing.
+## 🏗 Repository
+* **[`seer`](https://github.com/seer-engg/seer):** The main workflow builder with integrated tools and services.
 
 ## ⚖️ License & Contributions
 We use **AGPL-3.0**. If you run a hosted version of Seer, you must share your modifications. 

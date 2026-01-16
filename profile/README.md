@@ -48,6 +48,6 @@ Access the workflow editor at http://localhost:5173/workflows?backend=http://loc
 * **[`seer`](https://github.com/seer-engg/seer):** The main workflow builder with integrated tools and services.
 
 ## ⚖️ License & Contributions
-We use **AGPL-3.0**. If you run a hosted version of Seer, you must share your modifications. 
+We use **MIT** license. Core Seer is open source under MIT. Enterprise features (if any) are in the `ee/` directory with a separate license.
 
-Contributing requires a **Contributor License Agreement (CLA)** so we can support teams whose legal policies prevent them from using AGPL directly. See `CONTRIBUTING.md` for details.
+Contributing requires a **Contributor License Agreement (CLA)** so we can support teams needing enterprise features. See `CONTRIBUTING.md` for details.

@@ -4,9 +4,9 @@ First off, thanks for helping us make agents more reliable. We want to keep this
 
 ## The Legal Part (Keep it simple)
 
-We use the **AGPL-3.0** license. This ensures the core engine remains open for everyone.
+We use the **MIT** license. This ensures the core engine remains open for everyone.
 
-Because we also offer commercial licenses to companies with "No AGPL" policies, we require all contributors to sign a **Contributor License Agreement (CLA)**. 
+We also offer commercial licenses to companies needing enterprise features, so we require all contributors to sign a **Contributor License Agreement (CLA)**. 
 
 ### How to sign:
 1. Open a Pull Request.

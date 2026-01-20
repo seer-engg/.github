@@ -1,8 +1,8 @@
 # Seer
 
-### **Workflow builder with fine-grained control for automated workflows.**
+### **Workflow automation with oversight and cost governance.**
 
-Build complex automation workflows with visual editing, AI-assisted development, and seamless integrations (Google Workspace, GitHub, and more).
+Build complex automation workflows with visual editing, cost controls, human oversight, and seamless integrations (Google Workspace, GitHub, and more).
 
 ## 🚀 Quick Start
 
@@ -17,30 +17,35 @@ Access the workflow editor at http://localhost:5173/workflows?backend=http://loc
 
 **🛠️ Visual Workflow Builder**
 - Drag-and-drop interface for creating automation workflows
-- Node-based editor with custom blocks and integrations
+- Visual editor with custom blocks and integrations
 - Real-time workflow validation and execution
 
-**🤖 AI-Assisted Development**
+**💰 Cost Governance**
+- Built-in spend caps and token limits per workflow
+- Budget controls to prevent runaway AI expenses
+- Transparent cost tracking and reporting
+
+**👁️ Execution Transparency**
+- Complete run history for every workflow execution
+- Detailed tracing with timing and outputs
+- Human oversight checkpoints for critical decisions
+
+**🤖 AI-Assisted Automation**
 - Chat interface for workflow design and debugging
 - AI suggestions for workflow improvements
 - Intelligent error handling and recovery
 
 **🔗 Rich Integrations**
-- Google Workspace (Gmail, Drive, Sheets)
+- Google Workspace (Gmail, Drive, Sheets with minimal permissions)
 - GitHub (Repository management, issues, PRs)
 - Web Tools (Search, content fetching, APIs)
 - Databases (PostgreSQL with approval-based write controls)
 
-**⚡ Advanced Execution Engine**
-- Streaming execution with real-time updates
-- Interrupt handling for human-in-the-loop workflows
-- Persistent state management
-
-**🔒 Enterprise-Ready**
-- Self-hosted or cloud deployment (Railway)
+**🔒 Self-Hostable**
+- Self-hosted or cloud deployment
+- Minimal permissions approach (read-only first)
 - OAuth-based authentication
-- Role-based access control
-- Audit trails and execution history
+- Role-based access control and audit trails
 
 ---
 

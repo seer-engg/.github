@@ -20,4 +20,4 @@ We also offer commercial licenses to companies needing enterprise features, so w
 - **Docs:** Update the relevant README if you change a tool's signature or a node's state schema.
 
 ## Questions?
-If you're not sure if a feature fits the roadmap, open a **Discussion** or an Issue before writing the code.
+If you're not sure if a feature fits the roadmap, ask on our **[Community Forum](https://forum.getseer.dev/)** or open an Issue before writing code.

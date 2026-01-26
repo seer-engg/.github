@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+> **Note:** For general questions or discussions, please use our [Community Forum](https://forum.getseer.dev/) instead. This issue tracker is for bug reports only.
+
 **Describe the bug**
 A clear and concise description of what the agent did (or didn't) do.
 

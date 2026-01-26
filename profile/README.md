@@ -52,6 +52,16 @@ Access the workflow editor at http://localhost:5173/workflows?backend=http://loc
 ## 🏗 Repository
 * **[`seer`](https://github.com/seer-engg/seer):** The main workflow builder with integrated tools and services.
 
+## 💬 Community & Support
+
+**Get Help & Connect:**
+- **[Community Forum](https://forum.getseer.dev/)** - Ask questions, share workflows, discuss features
+- **[Discord](https://discord.gg/sBh9Rsxf)** - Real-time chat with the community
+- **[GitHub Issues](https://github.com/seer-engg/seer/issues)** - Bug reports and technical issues
+- **[Documentation](https://docs.getseer.dev)** - Guides and API reference
+
+---
+
 ## ⚖️ License & Contributions
 We use **MIT** license. Core Seer is open source under MIT. Enterprise features (if any) are in the `ee/` directory with a separate license.
 

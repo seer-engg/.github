@@ -1,59 +1,34 @@
 # Seer
+> **No-code, controllable AI workflows**
 
-### **Workflow automation with oversight and cost governance.**
+- Supports both visual editing & AI-assisted development.
+- 100+ tools and triggers to chose from.
 
-Build complex automation workflows with visual editing, cost controls, human oversight, and seamless integrations (Google Workspace, GitHub, and more).
+## 🚀 Quick Start - Cloud
+Signup at https://app.getseer.dev. Checkout our [pricing page](https://www.getseer.dev/pricing) for more info.
 
-## 🚀 Quick Start
-
+## 🚀 Quick Start - Self-Hosting
+Seer is dockerized. Follow the instructions to clone and get started.
 ```bash
-git clone <repo> && cd seer
+git clone https://github.com/seer-engg/seer
+cd seer
 docker compose up
 ```
-
-Access the workflow editor at http://localhost:5173/workflows?backend=http://localhost:8000
+Access the workflow editor at https://app.getseer.dev/workflows?backend=http://localhost:8000
 
 ## ✨ Key Features
 
-**🛠️ Visual Workflow Builder**
-- Drag-and-drop interface for creating automation workflows
-- Visual editor with custom blocks and integrations
-- Real-time workflow validation and execution
+1. **🛠️ Visual Workflow Builder**: Drag-and-drop interface for creating automation workflows
+2. **💰 Cost Governance**: Built-in spend caps and token limits per workflow
+3. **👁️ Execution Transparency**: Complete run history for every workflow execution
+4. **🤖 AI-Assisted Automation**: Chat interface for workflow design and debugging
+5. **🔒 Enterprise-Ready**: Self-hosted or cloud deployment (Railway, AWS, etc)
 
-**💰 Cost Governance**
-- Built-in spend caps and token limits per workflow
-- Budget controls to prevent runaway AI expenses
-- Transparent cost tracking and reporting
-
-**👁️ Execution Transparency**
-- Complete run history for every workflow execution
-- Detailed tracing with timing and outputs
-- Human oversight checkpoints for critical decisions
-
-**🤖 AI-Assisted Automation**
-- Chat interface for workflow design and debugging
-- AI suggestions for workflow improvements
-- Intelligent error handling and recovery
-
-**🔗 Rich Integrations**
-- Google Workspace (Gmail, Drive, Sheets with minimal permissions)
-- GitHub (Repository management, issues, PRs)
-- Web Tools (Search, content fetching, APIs)
-- Databases (PostgreSQL with approval-based write controls)
-
-**🔒 Self-Hostable**
-- Self-hosted or cloud deployment
-- Minimal permissions approach (read-only first)
-- OAuth-based authentication
-- Role-based access control and audit trails
-
----
-
-## 🏗 Repository
-* **[`seer`](https://github.com/seer-engg/seer):** The main workflow builder with integrated tools and services.
+## Links
+* **[`seer`](https://github.com/seer-engg/seer):** Workflow backend. Packaged with a database, job scheduler. Self-hostable in <5mins.
+* **[`Seer Roadmap`](https://github.com/orgs/seer-engg/projects/4):** Our feature roadmap is public. Feel free to create an issue or add a request.
 
 ## 💬 Community & Support
-
 **Get Help & Connect:**
 - **[Community Forum](https://forum.getseer.dev/)** - Ask questions, share workflows, discuss features
 - **[Discord](https://discord.gg/sBh9Rsxf)** - Real-time chat with the community

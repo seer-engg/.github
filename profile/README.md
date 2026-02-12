@@ -38,6 +38,6 @@ Access the workflow editor at https://app.getseer.dev/workflows?backend=http://l
 ---
 
 ## ⚖️ License & Contributions
-We use **MIT** license. Core Seer is open source under MIT. Enterprise features (if any) are in the `ee/` directory with a separate license.
+Seer is open source under MIT.
 
 Contributing requires a **Contributor License Agreement (CLA)** so we can support teams needing enterprise features. See `CONTRIBUTING.md` for details.
